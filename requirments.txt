@@ -1,0 +1,6 @@
+streamlit
+tika
+pprint36
+collections2
+regex
+pandas
