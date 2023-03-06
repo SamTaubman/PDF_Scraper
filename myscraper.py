@@ -23,8 +23,8 @@ for uploaded_file in uploaded_files:
     pdf_list = content.split('\n')
     pdf_list = list(filter(lambda a: a != '', pdf_list))
 
-     st.write(pdf_list)
+    st.write(pdf_list)
 
-     #Search for keyword to select values from
+    #Search for keyword to select values from
     r = re.compile("keyword")
     newlist = list(filter(r.match, pdf_list))
