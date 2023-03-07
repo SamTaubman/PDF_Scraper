@@ -4,3 +4,6 @@ pprint36
 collections2
 regex
 pandas
+sqlite3
+numpy
+pdfkit
